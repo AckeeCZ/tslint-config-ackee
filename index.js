@@ -40,6 +40,10 @@ module.exports = {
         'member-ordering': {
             'severity': 'warning',
             'options': 'statics-first'
+        },
+        'semicolon': {
+            'severity': 'warning',
+            'options': ['always']
         }
     },
     'rules': {
@@ -81,6 +85,10 @@ module.exports = {
         'member-ordering': {
             'severity': 'warning',
             'options': 'statics-first'
+        },
+        'semicolon': {
+            'severity': 'warning',
+            'options': ['always']
         }
     },
     'rulesDirectory': []
