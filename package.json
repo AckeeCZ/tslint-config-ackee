@@ -1,0 +1,20 @@
+{
+    "name": "tslint-config-ackee",
+    "version": "0.1.0",
+    "description": "Ackee TSLint config",
+    "main": "index.js",
+    "author": "Michal Vlasák <michal.vlasak@ackee.cz>",
+    "license": "ISC",
+    "scripts": {
+        "check": "npm-check -s; exit 0",
+        "check-win": "npm-check -s & exit 0"
+    },
+    "dependencies": {
+        "tslint": "^5.10.0",
+        "tslint-eslint-rules": "^5.3.1",
+        "typescript": "^2.9.2"
+    },
+    "devDependencies": {
+        "npm-check": "^5.6.0"
+    }
+}
