@@ -29,3 +29,4 @@ Dependencies
 
 * [tslint:recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts)
 * [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+* [tslint-no-unused-expression-chai](https://github.com/kwonoj/tslint-no-unused-expression-chai)
