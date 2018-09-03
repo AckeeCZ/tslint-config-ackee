@@ -2,7 +2,8 @@ module.exports = {
     'defaultSeverity': 'error',
     'extends': [
         'tslint:recommended',
-        'tslint-eslint-rules'
+        'tslint-eslint-rules',
+        'tslint-no-unused-expression-chai'
     ],
     // will be copied in future: https://github.com/palantir/tslint/pull/3641
     'jsRules': {
