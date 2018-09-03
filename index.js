@@ -41,6 +41,7 @@ module.exports = {
             'severity': 'warning',
             'options': 'statics-first'
         },
+        'no-consecutive-blank-lines': [true, 2],
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
@@ -86,6 +87,7 @@ module.exports = {
             'severity': 'warning',
             'options': 'statics-first'
         },
+        'no-consecutive-blank-lines': [true, 2],
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
