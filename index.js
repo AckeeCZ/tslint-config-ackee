@@ -47,7 +47,10 @@ module.exports = {
             'severity': 'warning',
             'options': ['always']
         },
-        "object-curly-spacing": [true, "always"],
+        "object-curly-spacing": {
+            'severity': 'warning',
+            'options': ['always']
+        }
     },
     'rules': {
         'quotemark': [true, 'single'],
@@ -94,7 +97,10 @@ module.exports = {
             'severity': 'warning',
             'options': ['always']
         },
-        "object-curly-spacing": [true, "always"],
+        "object-curly-spacing": {
+            'severity': 'warning',
+            'options': ['always']
+        }
     },
     'rulesDirectory': []
 }
