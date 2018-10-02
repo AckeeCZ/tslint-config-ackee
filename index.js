@@ -46,6 +46,10 @@ module.exports = {
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
+        },
+        "object-curly-spacing": {
+            'severity': 'warning',
+            'options': ['always']
         }
     },
     'rules': {
@@ -90,6 +94,10 @@ module.exports = {
         },
         'no-consecutive-blank-lines': [true, 2],
         'semicolon': {
+            'severity': 'warning',
+            'options': ['always']
+        },
+        "object-curly-spacing": {
             'severity': 'warning',
             'options': ['always']
         }
