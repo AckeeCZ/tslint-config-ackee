@@ -46,7 +46,8 @@ module.exports = {
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
-        }
+        },
+        "object-curly-spacing": [true, "always"],
     },
     'rules': {
         'quotemark': [true, 'single'],
@@ -92,7 +93,8 @@ module.exports = {
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
-        }
+        },
+        "object-curly-spacing": [true, "always"],
     },
     'rulesDirectory': []
 }

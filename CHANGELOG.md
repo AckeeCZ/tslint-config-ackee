@@ -1,3 +1,8 @@
+## [0.2.1] - 2018-10-02
+
+### Added
+- `object-curly-spacing` rule as in Ackee eslint package
+
 ## [0.1.1] - 2018-09-03
 
 ### Added
