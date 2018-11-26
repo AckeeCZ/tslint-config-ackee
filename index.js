@@ -100,7 +100,8 @@ module.exports = {
         "object-curly-spacing": {
             'severity': 'warning',
             'options': ['always']
-        }
+        },
+        'no-unused-variable': [true, {"ignore-pattern": "^_"}],
     },
     'rulesDirectory': []
 }
