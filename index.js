@@ -96,6 +96,7 @@ module.exports = {
             'options': ['always']
         },
         'no-unused-variable': [true, {"ignore-pattern": "^_"}],
+        'object-shorthand-properties-first': true,
     },
     'rulesDirectory': []
 }
