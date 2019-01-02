@@ -31,10 +31,7 @@ module.exports = {
         'interface-name': false,
         'variable-name': [true, 'check-format', 'allow-leading-underscore'],
         'arrow-parens': false,
-        'object-literal-sort-keys': {
-            'severity': 'warning',
-            'options': ['ignore-case', 'match-declaration-order', 'shorthand-first']
-        },
+        'object-literal-sort-keys': false,
         'ordered-imports': {
             'severity': 'warning'
         },
@@ -81,10 +78,7 @@ module.exports = {
         'no-angle-bracket-type-assertion': {
             'severity': 'warning'
         },
-        'object-literal-sort-keys': {
-            'severity': 'warning',
-            'options': ['ignore-case', 'match-declaration-order', 'shorthand-first']
-        },
+        'object-literal-sort-keys': false,
         'ordered-imports': {
             'severity': 'warning'
         },
@@ -102,6 +96,7 @@ module.exports = {
             'options': ['always']
         },
         'no-unused-variable': [true, {"ignore-pattern": "^_"}],
+        'object-shorthand-properties-first': true,
     },
     'rulesDirectory': []
 }
