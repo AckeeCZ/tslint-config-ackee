@@ -1,3 +1,11 @@
+## [0.2.2] - 2019-01-09
+
+### Added
+- `tslint-consistent-codestyle` module for `object-shorthand-properties-first` rule
+
+### Changed
+- `object-literal-sort-keys` relaxed
+
 ## [0.2.1] - 2018-10-02
 
 ### Added
