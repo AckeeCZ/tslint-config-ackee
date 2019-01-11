@@ -98,5 +98,5 @@ module.exports = {
         'no-unused-variable': [true, {"ignore-pattern": "^_"}],
         'object-shorthand-properties-first': true,
     },
-    'rulesDirectory': []
+    'rulesDirectory': ['tslint-consistent-codestyle']
 }
