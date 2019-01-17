@@ -1,56 +1,12 @@
 module.exports = {
     'defaultSeverity': 'error',
     'extends': [
-        'tslint:recommended',
-        'tslint-eslint-rules',
+        'tslint-config-airbnb',
         'tslint-no-unused-expression-chai'
     ],
-    // will be copied in future: https://github.com/palantir/tslint/pull/3641
-    'jsRules': {
-        'quotemark': [true, 'single'],
-        'trailing-comma': [true, {
-            'multiline': {
-                'objects': 'always',
-                'arrays': 'always',
-                'imports': 'ignore',
-                'exports': 'ignore',
-                'functions': 'ignore'
-            },
-            'singleline': {
-                'imports': 'ignore',
-                'exports': 'ignore',
-                'functions': 'ignore'
-            }
-        }],
-        'max-line-length': false,
-        'ter-max-len': [true, 160, 4, {
-            'ignoreComments': true,
-            'ignoreUrls': true,
-            'ignorePattern': '^\\s*var\\s.+=\\s*require\\s*\\('
-        }],
-        'interface-name': false,
-        'variable-name': [true, 'check-format', 'allow-leading-underscore'],
-        'arrow-parens': false,
-        'object-literal-sort-keys': false,
-        'ordered-imports': {
-            'severity': 'warning'
-        },
-        'member-ordering': {
-            'severity': 'warning',
-            'options': 'statics-first'
-        },
-        'no-consecutive-blank-lines': [true, 2],
-        'semicolon': {
-            'severity': 'warning',
-            'options': ['always']
-        },
-        "object-curly-spacing": {
-            'severity': 'warning',
-            'options': ['always']
-        }
-    },
+    'jsRules': true,
     'rules': {
-        'quotemark': [true, 'single'],
+        'align': [true, 'parameters'],
         'trailing-comma': [true, {
             'multiline': {
                 'objects': 'always',
@@ -71,32 +27,7 @@ module.exports = {
             'ignoreUrls': true,
             'ignorePattern': '^\\s*var\\s.+=\\s*require\\s*\\('
         }],
-        'interface-name': false,
         'variable-name': [true, 'check-format', 'allow-leading-underscore'],
-        'arrow-parens': false,
-        'no-namespace': [true, 'allow-declarations'],
-        'no-angle-bracket-type-assertion': {
-            'severity': 'warning'
-        },
-        'object-literal-sort-keys': false,
-        'ordered-imports': {
-            'severity': 'warning'
-        },
-        'member-ordering': {
-            'severity': 'warning',
-            'options': 'statics-first'
-        },
-        'no-consecutive-blank-lines': [true, 2],
-        'semicolon': {
-            'severity': 'warning',
-            'options': ['always']
-        },
-        "object-curly-spacing": {
-            'severity': 'warning',
-            'options': ['always']
-        },
-        'no-unused-variable': [true, {"ignore-pattern": "^_"}],
-        'object-shorthand-properties-first': true,
     },
     'rulesDirectory': ['tslint-consistent-codestyle']
 }

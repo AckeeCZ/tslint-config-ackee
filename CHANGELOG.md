@@ -1,3 +1,9 @@
+## Unpublished
+
+### Changed
+- extend `tslint-config-airbnb`
+- update `tslint` to 5.12.1
+
 ## [0.2.2] - 2019-01-09
 
 ### Added
