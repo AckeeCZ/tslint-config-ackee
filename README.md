@@ -27,6 +27,5 @@ Dependencies
 
 **Extends**
 
-* [tslint:recommended](https://github.com/palantir/tslint/blob/master/src/configs/recommended.ts)
-* [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
+* [tslint-config-airbnb](https://github.com/progre/tslint-config-airbnb)
 * [tslint-no-unused-expression-chai](https://github.com/kwonoj/tslint-no-unused-expression-chai)

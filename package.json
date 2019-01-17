@@ -1,6 +1,6 @@
 {
     "name": "tslint-config-ackee",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Ackee TSLint config",
     "main": "index.js",
     "author": "Michal Vlasák <michal.vlasak@ackee.cz>",
@@ -10,7 +10,8 @@
         "check-win": "npm-check -s & exit 0"
     },
     "dependencies": {
-        "tslint": "^5.10.0",
+        "tslint": "^5.12.1",
+        "tslint-config-airbnb": "^5.11.1",
         "tslint-consistent-codestyle": "^1.14.1",
         "tslint-eslint-rules": "^5.3.1",
         "tslint-no-unused-expression-chai": "^0.1.3",
