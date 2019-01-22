@@ -7,6 +7,7 @@ module.exports = {
     'jsRules': true,
     'rules': {
         'align': [true, 'parameters'],
+        'import-name': false,
         'max-line-length': false,
         'member-ordering': {
             'severity': 'warning',
@@ -16,6 +17,7 @@ module.exports = {
             'severity': 'warning'
         },
         'no-namespace': [true, 'allow-declarations'],
+        'no-parameter-reassignment': false,
         'no-unused-variable': [true, {"ignore-pattern": "^_"}],
         'object-curly-spacing': {
             'severity': 'warning',
@@ -24,10 +26,18 @@ module.exports = {
         'ordered-imports': {
             'severity': 'warning'
         },
+        'prefer-array-literal': false,
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
         },
+        'space-before-function-paren': [true, 'never'],
+        'ter-arrow-parens': false,
+        'ter-indent': [
+            true,
+            4,
+            { 'SwitchCase': 1 },
+        ],
         'ter-max-len': [true, 160, 4, {
             'ignoreComments': true,
             'ignoreUrls': true,
