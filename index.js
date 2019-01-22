@@ -31,6 +31,7 @@ module.exports = {
             'severity': 'warning',
             'options': ['always']
         },
+        'space-before-function-paren': [true, 'never'],
         'ter-arrow-parens': false,
         'ter-indent': [
             true,
