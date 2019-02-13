@@ -4,7 +4,11 @@
     "description": "Ackee TSLint config",
     "main": "index.js",
     "author": "Michal Vlasák <michal.vlasak@ackee.cz>",
-    "license": "ISC",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AckeeCZ/tslint-config-ackee"
+    },
     "scripts": {
         "check": "npm-check -s; exit 0",
         "check-win": "npm-check -s & exit 0"
