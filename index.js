@@ -58,6 +58,7 @@ module.exports = {
             }
         }],
         'variable-name': [true, 'check-format', 'allow-leading-underscore'],
+        'cyclomatic-complexity': [true, 10],
     },
     'rulesDirectory': ['tslint-consistent-codestyle']
 }
