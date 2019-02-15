@@ -31,7 +31,13 @@ module.exports = {
             'severity': 'warning',
             'options': ['always']
         },
-        'space-before-function-paren': [true, 'never'],
+        'space-before-function-paren': [true, {
+            'anonymous': 'never',
+            'named': 'never',
+            'asyncArrow': 'always',
+            'method': 'never',
+            'constructor': 'never'
+        }],
         'ter-arrow-parens': false,
         'ter-indent': [
             true,

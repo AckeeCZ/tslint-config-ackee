@@ -1,5 +1,8 @@
 ## Unpublished
 
+### Changed
+- Demand space before async arrow function parens 
+
 ## [0.2.5] - 2019-01-22
 
 ### Changed
