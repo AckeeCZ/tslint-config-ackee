@@ -1,5 +1,11 @@
 ## Unpublished
 
+### Added
+- `early-exit`, `no-return-undefined`, `no-unnecessary-else`, `no-unused` and `prefer-while` rules from `tslint-consistent-codestyle`
+
+### Removed
+- `no-unused-variable` rule (replaced by `no-unused`)
+
 ## [0.2.6] - 2019-02-15
 
 ### Changed
