@@ -7,6 +7,10 @@ module.exports = {
     'jsRules': true,
     'rules': {
         'align': [true, 'parameters'],
+        'cyclomatic-complexity': [true, 10],
+        'early-exit': {
+            'severity': 'warning'
+        },
         'import-name': false,
         'max-line-length': false,
         'member-ordering': {
@@ -18,7 +22,13 @@ module.exports = {
         },
         'no-namespace': [true, 'allow-declarations'],
         'no-parameter-reassignment': false,
-        'no-unused-variable': [true, {"ignore-pattern": "^_"}],
+        'no-return-undefined': {
+            'severity': 'warning'
+        },
+        'no-unnecessary-else': {
+            'severity': 'warning'
+        },
+        'no-unused': true,
         'object-curly-spacing': {
             'severity': 'warning',
             'options': ['always']
@@ -27,6 +37,9 @@ module.exports = {
             'severity': 'warning'
         },
         'prefer-array-literal': false,
+        'prefer-while': {
+            'severity': 'warning'
+        },
         'semicolon': {
             'severity': 'warning',
             'options': ['always']
@@ -64,7 +77,6 @@ module.exports = {
             }
         }],
         'variable-name': [true, 'check-format', 'allow-leading-underscore'],
-        'cyclomatic-complexity': [true, 10],
     },
     'rulesDirectory': ['tslint-consistent-codestyle']
 }
