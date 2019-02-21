@@ -1,6 +1,6 @@
 {
     "name": "tslint-config-ackee",
-    "version": "0.2.6",
+    "version": "0.3.0",
     "description": "Ackee TSLint config",
     "main": "index.js",
     "author": "Michal Vlasák <michal.vlasak@ackee.cz>",
