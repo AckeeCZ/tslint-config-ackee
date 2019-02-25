@@ -43,3 +43,7 @@ Dependencies
 
 * [tslint-config-airbnb](https://github.com/progre/tslint-config-airbnb)
 * [tslint-no-unused-expression-chai](https://github.com/kwonoj/tslint-no-unused-expression-chai)
+
+**Rules**
+
+* [tslint-consistent-codestyle](https://github.com/ajafff/tslint-consistent-codestyle)
