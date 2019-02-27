@@ -1,5 +1,8 @@
 ## Unpublished
 
+### Added
+- `no-console` rule
+
 ## [0.3.0] - 2019-02-21
 
 ### Added

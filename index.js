@@ -20,6 +20,9 @@ module.exports = {
         'no-angle-bracket-type-assertion': {
             'severity': 'warning'
         },
+        'no-console': {
+            'severity': 'warning',
+        },
         'no-namespace': [true, 'allow-declarations'],
         'no-parameter-reassignment': false,
         'no-return-undefined': {
