@@ -55,11 +55,7 @@ module.exports = {
             'constructor': 'never'
         }],
         'ter-arrow-parens': false,
-        'ter-indent': [
-            true,
-            4,
-            { 'SwitchCase': 1 },
-        ],
+        'ter-indent': false,
         'ter-max-len': [true, 160, 4, {
             'ignoreComments': true,
             'ignoreUrls': true,

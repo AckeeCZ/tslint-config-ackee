@@ -3,6 +3,9 @@
 ### Added
 - `no-console` rule
 
+### Removed
+- `ter-indent` rule due to strange behaviour
+
 ## [0.3.0] - 2019-02-21
 
 ### Added
