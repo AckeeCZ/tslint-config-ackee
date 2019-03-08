@@ -2,6 +2,7 @@
 
 ### Added
 - `no-console` rule
+- `indent` rule instead of `ter-indent`
 
 ### Removed
 - `ter-indent` rule due to strange behaviour

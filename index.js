@@ -12,6 +12,7 @@ module.exports = {
             'severity': 'warning'
         },
         'import-name': false,
+        'indent': [true, 'spaces', 4],
         'max-line-length': false,
         'member-ordering': {
             'severity': 'warning',
