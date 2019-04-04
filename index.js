@@ -25,6 +25,7 @@ module.exports = {
         },
         'no-namespace': [true, 'allow-declarations'],
         'no-parameter-reassignment': false,
+        'no-return-await': true,
         'no-return-undefined': {
             'severity': 'warning'
         },
