@@ -1,5 +1,12 @@
 <div align="center">
 
+## DEPRECATION NOTICE
+
+This package is no longer maintained.
+</div>
+
+<div align="center">
+
 ![TSLint config Ackee](https://i.imgur.com/Gvg8iJm.png)
 
 [![Npm](https://img.shields.io/npm/v/tslint-config-ackee.svg?style=flat-square)](https://www.npmjs.com/package/tslint-config-ackee)
